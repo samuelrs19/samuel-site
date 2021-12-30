@@ -1,3 +1,7 @@
+:root{
+  --color-primary: #b9a1d3;
+}
+
 img.wp-smiley,
 img.emoji {
   display: inline !important;
@@ -9946,7 +9950,7 @@ body {
   top: 0;
   width: 100%;
   height: 100vh;
-  background: #8168e0;
+  background: var(--color-primary);
 }
 .preloader .box-2 {
   background: #373b40;
@@ -9980,7 +9984,7 @@ body {
 }
 .preloader .spinner .lines:after {
   left: 15px;
-  background: #8168e0;
+  background: var(--color-primary);
   animation: loading 2s cubic-bezier(0.165, 0.85, 0.45, 1) 0.5s infinite;
 }
 .container {
@@ -10146,7 +10150,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .animated-button {
   position: relative;
@@ -10159,7 +10163,7 @@ a:hover {
   position: relative;
   overflow: hidden;
   display: block;
-  text-shadow: 0 16px 0 #8168e0;
+  text-shadow: 0 16px 0 var(--color-primary);
 }
 .animated-button span em {
   min-width: 5px;
@@ -10243,7 +10247,7 @@ a.btn:hover,
 .btn:hover,
 .single-post-text input[type="submit"]:hover,
 button:hover {
-  border-color: #8168e0;
+  border-color: var(--color-primary);
 }
 a.btn:hover .animated-button em,
 .btn:hover .animated-button em,
@@ -10255,7 +10259,7 @@ a.btn:hover .icon,
 .btn:hover .icon,
 .single-post-text input[type="submit"]:hover .icon,
 button:hover .icon {
-  color: #8168e0;
+  color: var(--color-primary);
   transform: translateX(6px);
   -webkit-transform: translateX(6px);
   -moz-transform: translateX(6px);
@@ -10275,7 +10279,7 @@ button .icon {
 }
 .wp-block-button__link,
 a.wp-block-button__link {
-  background-color: #8168e0;
+  background-color: var(--color-primary);
   color: #101010;
   line-height: normal;
 }
@@ -10287,11 +10291,11 @@ a.wp-block-button__link {
 }
 .is-style-outline .wp-block-button__link {
   background-color: transparent;
-  border: 2px solid #8168e0;
-  color: #8168e0;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }
 .is-style-outline .wp-block-button__link:hover {
-  background: #8168e0;
+  background: var(--color-primary);
   color: #101010;
 }
 .wp-block-button__link:hover,
@@ -10562,7 +10566,7 @@ code {
   padding: 0 4px;
   font-size: 14px;
   font-style: italic;
-  color: #8168e0;
+  color: var(--color-primary);
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
@@ -10622,7 +10626,7 @@ table {
   background: 0 0;
 }
 .content-sidebar td#today {
-  background: #8168e0;
+  background: var(--color-primary);
   color: #000 !important;
   font-weight: 700;
 }
@@ -10652,7 +10656,7 @@ table {
   border: 1px solid #585d65;
 }
 .single-post-text table td#today {
-  background: #8168e0;
+  background: var(--color-primary);
   color: #fff !important;
   font-weight: 700;
 }
@@ -10896,7 +10900,7 @@ blockquote {
   pointer-events: auto;
 }
 .header .top-menu ul li.current-menu-item > a {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .header .top-menu ul li:hover > a:hover .animated-button em {
   transform: translateY(calc(16px * -1));
@@ -10998,7 +11002,7 @@ blockquote {
 .header .top-menu-nav .children li a:hover,
 .header .top-menu-nav .sub-menu li.active a,
 .header .top-menu-nav .children li.active a {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .header .menu-btn {
   padding: 20px;
@@ -11234,7 +11238,7 @@ blockquote {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #8168e0;
+  background-color: var(--color-primary);
 }
 .background-filter .background-img {
   -webkit-filter: grayscale(100%);
@@ -11344,7 +11348,7 @@ blockquote {
 .section .titles .subtitle {
   font-size: 14px;
   line-height: 1.2;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -11479,7 +11483,7 @@ blockquote {
   -khtml-border-radius: 264px;
 }
 .section.started .h-title strong {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .section.started .started-content {
   padding-left: 8%;
@@ -11495,7 +11499,7 @@ blockquote {
   display: inline-block;
   font-size: 14px;
   line-height: 1.2;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -11630,7 +11634,7 @@ blockquote {
   width: 90px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #8168e0;
+  color: var(--color-primary);
 }
 @media (max-width: 720px) {
   .info-list ul li {
@@ -11663,7 +11667,7 @@ blockquote {
   top: -22px;
   display: inline-block;
   font-size: 11px;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
   transform-origin: bottom left;
   transform: rotate(90deg);
@@ -11675,7 +11679,7 @@ blockquote {
   margin-bottom: 15px;
   font-size: 32px;
   height: 32px;
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .resume-item .name {
   margin: 0 0 30px 30px;
@@ -11737,7 +11741,7 @@ blockquote {
   position: absolute;
   height: 2px;
   width: 0;
-  background: #8168e0;
+  background: var(--color-primary);
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
@@ -11748,7 +11752,7 @@ blockquote {
   top: -25px;
   right: 0;
   font-size: 12px;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
 }
 .skills.list .name {
@@ -11761,7 +11765,7 @@ blockquote {
   left: 0;
   top: 3px;
   display: inline-block;
-  color: #8168e0;
+  color: var(--color-primary);
   font-family: "FontAwesome";
   font-weight: 900;
   -moz-osx-font-smoothing: grayscale;
@@ -11812,7 +11816,7 @@ blockquote {
   top: 0;
 }
 .skills.dotted .progress .da span {
-  background: #8168e0;
+  background: var(--color-primary);
 }
 .skills.circles ul li {
   width: 33.333%;
@@ -11851,7 +11855,7 @@ blockquote {
   width: 100%;
   height: 100%;
   font-size: 12px;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
   line-height: 90px;
   text-align: center;
@@ -11981,7 +11985,7 @@ blockquote {
   height: 0.92em;
   clip: rect(0em, 0.5em, 1em, 0em);
   -webkit-clip: rect(0em, 0.5em, 1em, 0em);
-  border: 0.04em solid #8168e0;
+  border: 0.04em solid var(--color-primary);
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -12762,7 +12766,7 @@ blockquote {
   margin-bottom: 15px;
   font-size: 32px;
   height: 32px;
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .service-item .name {
   margin: 0 0 30px;
@@ -12803,7 +12807,7 @@ blockquote {
   padding-bottom: 0;
 }
 .section.works .filters label.glitch-effect {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .box-items {
   margin: 0 -20px;
@@ -12828,7 +12832,7 @@ blockquote {
   -o-transform: scale(1, 1);
 }
 .box-items .box-item:hover .desc .name {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .box-items .box-item .image {
   position: relative;
@@ -12864,7 +12868,7 @@ blockquote {
   -o-transform: scale(0.5, 0.5);
 }
 .box-items .box-item .image .info .centrize {
-  background: #8168e0;
+  background: var(--color-primary);
 }
 .box-items .box-item .image .info .icon {
   color: #fff;
@@ -12884,7 +12888,7 @@ blockquote {
   margin: 0;
   display: inline-block;
   font-size: 11px;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -12950,7 +12954,7 @@ blockquote {
   z-index: 2;
 }
 .contact-form .group-val .label strong {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .contact-info {
   padding: 30px;
@@ -12971,7 +12975,7 @@ blockquote {
 }
 .contact-info .subname {
   font-size: 11px;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -13026,7 +13030,7 @@ blockquote {
 .pricing-item .icons {
   font-size: 32px;
   height: 32px;
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .pricing-item .name {
   margin: 15px 0;
@@ -13095,7 +13099,7 @@ blockquote {
   vertical-align: middle;
   font-size: 11px;
   color: #000;
-  background: #8168e0;
+  background: var(--color-primary);
   font-weight: 400;
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -13130,7 +13134,7 @@ blockquote {
 }
 .reviews-item .company {
   font-size: 12px;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -13149,7 +13153,7 @@ blockquote {
   left: 0;
   top: 0;
   font-size: 32px;
-  color: #8168e0;
+  color: var(--color-primary);
   font-weight: 800;
 }
 @media (max-width: 720px) {
@@ -13181,7 +13185,7 @@ blockquote {
   color: rgba(255, 255, 255, 0.8);
   font-style: italic;
   font-weight: 300;
-  border-left: 2px solid #8168e0;
+  border-left: 2px solid var(--color-primary);
 }
 blockquote code {
   padding: 2px;
@@ -13240,7 +13244,7 @@ object {
   margin-bottom: 0;
 }
 .footer .socials a:hover {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .page-template-template-blog .footer,
 .single-post .footer,
@@ -13407,7 +13411,7 @@ object {
   margin: 0 0 5px;
   display: block;
   font-size: 12px;
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .popup-box .desc h4 {
   margin: 0 0 15px;
@@ -13702,7 +13706,7 @@ object {
   -o-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
 }
 .blog-items .blog-item .desc .name:hover {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .blog-items .blog-item .category-list,
 .blog-items .blog-item .date {
@@ -13947,8 +13951,8 @@ object {
   line-height: 18px;
   font-weight: 500;
   font-size: 11px;
-  color: #8168e0;
-  border: 1px solid #8168e0;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
 .single-post-text,
 .comment-text {
@@ -13983,7 +13987,7 @@ object {
 }
 .single-post-text p a,
 .comment-text p a {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .single-post-text p a:hover,
 .comment-text p a:hover {
@@ -13997,7 +14001,7 @@ blockquote {
   color: rgba(255, 255, 255, 0.8);
   font-style: italic;
   font-weight: 400;
-  border-left: 2px solid #8168e0;
+  border-left: 2px solid var(--color-primary);
 }
 blockquote code {
   padding: 2px;
@@ -14041,7 +14045,7 @@ object {
   top: 11px;
   width: 4px;
   height: 4px;
-  background: #8168e0;
+  background: var(--color-primary);
   border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -14199,7 +14203,7 @@ object {
   color: #fff;
 }
 .post-text-bottom span.cat-links a {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 .post-text-bottom span.cat-links a:hover {
   text-decoration: none;
@@ -14224,9 +14228,9 @@ object {
   line-height: 19px;
   font-weight: 500;
   font-size: 14px !important;
-  color: #8168e0;
+  color: var(--color-primary);
   text-decoration: none;
-  border: 1px solid #8168e0;
+  border: 1px solid var(--color-primary);
 }
 .content-sidebar .tagcloud a {
   margin: 0 5px 5px 0;
@@ -14362,7 +14366,7 @@ a.comment-reply-link {
   border-color: transparent;
 }
 .page-links .current {
-  border-color: #8168e0;
+  border-color: var(--color-primary);
 }
 form.post-password-form label input {
   margin-top: 10px;
@@ -14680,7 +14684,7 @@ a.rsswidget {
   top: 0;
   bottom: 0;
   width: 6px;
-  background: #8168e0;
+  background: var(--color-primary);
 }
 .title.comment-reply-title,
 .post-comments .title,
@@ -14751,7 +14755,7 @@ blockquote.has-text-align-right {
   padding-left: 0;
   padding-right: 20px;
   border-left: none;
-  border-right: 2px solid #8168e0;
+  border-right: 2px solid var(--color-primary);
 }
 blockquote.has-text-align-right cite:before {
   display: none;
@@ -14767,11 +14771,11 @@ blockquote.has-text-align-right cite:after {
 .wp-block-pullquote blockquote {
   padding-bottom: 30px;
   border-left: none;
-  border-bottom: 2px solid #8168e0;
+  border-bottom: 2px solid var(--color-primary);
 }
 .wp-block-pullquote.is-style-solid-color {
   color: #fff;
-  background-color: #8168e0;
+  background-color: var(--color-primary);
   border: none;
 }
 .wp-block-pullquote.is-style-solid-color p {
@@ -14904,7 +14908,7 @@ hr.wp-block-separator.is-style-wide {
   transition: all 0.8s cubic-bezier(0.2, 1, 0.8, 1);
 }
 .error-page__num {
-  color: #8168e0;
+  color: var(--color-primary);
   font-size: 20vw;
   display: block;
   height: auto;
@@ -22391,7 +22395,7 @@ a.wp-block-button__link,
 .single-post-text ul > li:before,
 .comment-text ul > li:before,
 .sticky:before {
-  background-color: #8168e0;
+  background-color: var(--color-primary);
 }
 a:hover,
 a.btn:hover .icon,
@@ -22437,7 +22441,7 @@ code,
 .error-page__num,
 .popup-box .category,
 .header .download-cv-btn {
-  color: #8168e0;
+  color: var(--color-primary);
 }
 a.btn:hover,
 .btn:hover,
@@ -22502,10 +22506,10 @@ blockquote,
 .post-text-bottom .tags-links span,
 .content-sidebar .tagcloud a,
 .header .download-cv-btn {
-  border-color: #8168e0;
+  border-color: var(--color-primary);
 }
 .animated-button span {
-  text-shadow: 0 16px 0 #8168e0;
+  text-shadow: 0 16px 0 var(--color-primary);
 }
 .recentcomments a {
   display: inline !important;
